@@ -46,7 +46,7 @@ export default function Gallery() {
                             <button
                                 key={index}
                                 onClick={() => handleCategoryGallery(categ)}
-                                className={`min-w-[120px] min-h-[45px] capitalize col-span-6 font-semibold shadow-lg ${categ === isCategory ? 'bg-[#6ab2ee] text-white' : 'bg-zinc-100 text-black'} px-4 h-full font-medium text-lg flex items-center justify-center rounded-[30px]`}
+                                className={`min-w-[120px] min-h-[45px] capitalize col-span-6 font-semibold shadow-lg ${categ === isCategory ? 'bg-[#6ab2ee] text-white' : 'bg-zinc-100 text-black'} px-4 h-full font-medium lg:text-lg text-sm flex items-center justify-center rounded-[30px]`}
                             >
                                 {categ.replace("-", " ")}
                             </button>
